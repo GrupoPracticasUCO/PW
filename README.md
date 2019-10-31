@@ -1,1 +1,1 @@
-Ancho de página 80% (cetrado)
+Ancho de página 70% (cetrado)
