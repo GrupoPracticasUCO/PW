@@ -1,0 +1,83 @@
+body{
+	background: lightgray;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menuSuperior{
+/*	background-color: red;*/
+	list-style-type: none;
+	margin-top: 1%;
+	padding: 0;
+	width: 95%;
+	text-align: center;
+}
+
+#menuSuperior li {
+	display: inline;
+}
+
+#menuSuperior li a{
+	font-family: Arial;
+	font-size: 2em;
+	text-decoration: none;
+/*	float: left;*/
+	padding: 10px;
+	background-color: lightblue;
+	color: black;
+}
+
+#menuSuperior li a:hover{
+	border: 3px solid blue;
+	/*font-family: fantasy;*/
+}
+
+#PrDestacado{
+	display: grid;
+	margin-top: 20%;
+	margin-bottom: 10%;
+	margin-right: 10%;
+	width: 40%;
+	border: 2px solid black;
+	float: left;
+}
+
+#PrDestacado > div{
+	border-bottom: 1px solid black;
+}
+
+#PrDestacado h1{
+	font-size: 1.5em;
+}
+
+#PrDestacado .brief{
+	overflow: hidden;	
+}
+
+#PrDestacado img{
+	width: 150px;
+	float: right;
+}
+
+#OtrosDestacados{
+	display: grid;
+	margin-top: 10%;
+	margin-bottom: 10%;	
+	margin-left: 10%;
+	width: 40%;
+	border: 2px solid black;
+}
+
+#OtrosDestacados > div{
+	border-bottom: 1px solid black;
+}
+
+#OtrosDestacados img{
+	width: 150px;
+	float: right;
+}
+
+#OtrosDestacados h2{
+	text-align: center;
+}

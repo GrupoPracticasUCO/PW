@@ -1,0 +1,80 @@
+body{
+	background: lightgray;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#proyectos{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 5%;
+	border: 1px solid black;
+	width: 50%;
+	float: left;
+	overflow: scroll;
+	height: 1000px;
+}
+
+#proyectos #CProy{
+	margin: 10px;
+	width: 99px;
+	padding: 7px;
+	background-color: lightcoral;
+}
+
+#proyectos #CProy:hover{
+	border: 2px solid rebeccapurple;
+	padding: 5px;
+}
+
+#proyectos #CProy a{
+	text-decoration: none;
+	color: black;
+}
+
+.proyecto{
+	margin: auto;
+	margin: 10px;
+	border: 1px solid black;
+	height: 240px;
+}
+
+.proyecto div{
+	float: left;
+}
+
+.proyecto div h3{
+	margin: 5px;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+.proyecto div p{
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 1.5em;
+}
+
+.proyecto img{
+	height: 200px;
+	float: right;
+	margin: 10px;
+}
+
+#imgPrSelect{
+	margin-top: 1%;
+	margin-bottom: 1%;	
+	float: right;
+	height: 495px;
+	width: 40%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#imgPrSelect img{
+	height: 495px;
+	width: auto;
+}
