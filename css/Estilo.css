@@ -1,9 +1,14 @@
-#cuerpo{width: 70%;
-  height: auto;
-  background-color: red;
-  margin: 0 auto;
+body{
+	background: lightgray;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
 }
-#info{float: left;
+#info{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 5%;
+  float: left;
   width: 35%;
   text-align: justify;
   border: 1px;
@@ -11,7 +16,15 @@
   border-color: black;
   border-radius: 5px;
 }
-#curriculum{float: right;
+#info_personal{
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+#curriculum{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  float: right;
   width: 55%;
   text-align: justify;
   border: 1px;
@@ -20,7 +33,6 @@
   border-radius: 5px;
 }
 .parrafo{text-align: left;width: 90%;margin: 10px auto;border: 1px;border-style: solid;border-color: black;border-radius: 5px;font-style: italic;font-family: fantasy;}
-#link{float: center;}
 
 /******************************************* CABECERA *****************************************************/
 
