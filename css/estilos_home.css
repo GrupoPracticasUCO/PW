@@ -5,6 +5,32 @@ body{
 	margin-right: auto;
 }
 
+#cuerpo{
+	background-color: white;
+}
+
+/*------------------HEADER---------------------*/
+.cab-lang-home{
+	float: left;
+	width: 15%;
+}
+
+#cabecera .cab-titulo{
+	width:60%;
+	float:left;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.home-buscar input{
+	padding: 10px 15px;
+	border-radius: 3px 3px;
+	border: 1px solid lightgray;
+}
+
+/*------------------------------------------*/
+
+
 #menuSuperior{
 /*	background-color: red;*/
 	list-style-type: none;
@@ -41,9 +67,14 @@ body{
 	width: 40%;
 	border: 2px solid black;
 	float: left;
+	border-radius: 2%;
 }
 
-#PrDestacado > div{
+.CuerpoPr{
+	float: left;
+}
+
+#PrDestacado > div:first-child{
 	border-bottom: 1px solid black;
 }
 
@@ -51,33 +82,36 @@ body{
 	font-size: 1.5em;
 }
 
-#PrDestacado .brief{
-	overflow: hidden;	
-}
-
-#PrDestacado img{
+.proyecto img{
 	width: 150px;
-	float: right;
+	margin-left: 20%;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
-#OtrosDestacados{
+.proyecto div{
+	float: left;
+}
+
+#SDestacado, #TDestacado{
 	display: grid;
 	margin-top: 10%;
-	margin-bottom: 10%;	
 	margin-left: 10%;
 	width: 40%;
 	border: 2px solid black;
+	border-radius: 2%;
+	
 }
 
-#OtrosDestacados > div{
+#SDestacado{
+	margin-bottom: 5%;	
+}
+
+#TDestacado{
+	margin-top: 5%;
+	margin-bottom: 10%;	
+}
+
+#SDestacado > div:first-child, #TDestacado > div:first-child{
 	border-bottom: 1px solid black;
-}
-
-#OtrosDestacados img{
-	width: 150px;
-	float: right;
-}
-
-#OtrosDestacados h2{
-	text-align: center;
 }
