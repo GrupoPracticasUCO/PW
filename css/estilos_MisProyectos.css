@@ -5,33 +5,49 @@ body{
 	margin-right: auto;
 }
 
+#cuerpo{
+	background-color: white;
+	padding-bottom: 80%;
+}
+
 #proyectos{
 	margin-top: 1%;
 	margin-bottom: 1%;
-	margin-right: 5%;
+	margin-right: 4%;
+	margin-left: 2%;
 	border: 1px solid black;
 	width: 50%;
 	float: left;
-	overflow: scroll;
+	overflow-y: scroll;
 	height: 1000px;
+	border-radius: 5px;
+	padding-right: 1%;
 }
 
 #proyectos #CProy{
 	margin: 10px;
 	width: 99px;
 	padding: 7px;
-	background-color: lightcoral;
 }
 
-#proyectos #CProy:hover{
-	border: 2px solid rebeccapurple;
+
+#proyectos #CProy button{
+	background-color: lightblue;
+	text-decoration: none;
+	color: black;
 	padding: 5px;
 }
 
-#proyectos #CProy a{
+#proyectos #CProy button:hover{
+	padding: 5px;
+	background-color: rgba(0, 0, 255, 0.411);
+}
+
+#proyectos #CProy button a{
 	text-decoration: none;
 	color: black;
 }
+
 
 .proyecto{
 	margin: auto;
@@ -63,8 +79,11 @@ body{
 }
 
 #imgPrSelect{
+	/*border: 1px solid rgba(0, 0, 0, 0.425);
+	border-radius: 10px;*/
+	margin-right: 2%;
 	margin-top: 1%;
-	margin-bottom: 1%;	
+	margin-bottom: 1%;
 	float: right;
 	height: 495px;
 	width: 40%;

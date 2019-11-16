@@ -7,6 +7,8 @@ body{
 
 #cuerpo{
 	background-color: white;
+	margin: 0px;
+	padding-bottom: 10%;
 }
 
 /*------------------HEADER---------------------*/
@@ -23,7 +25,7 @@ body{
 }
 
 .home-buscar input{
-	padding: 10px 15px;
+	padding: 5px 10px;
 	border-radius: 3px 3px;
 	border: 1px solid lightgray;
 }
@@ -38,6 +40,8 @@ body{
 	padding: 0;
 	width: 95%;
 	text-align: center;
+	margin: 0;
+	padding-top: 10px;
 }
 
 #menuSuperior li {
@@ -48,22 +52,24 @@ body{
 	font-family: Arial;
 	font-size: 2em;
 	text-decoration: none;
-/*	float: left;*/
+	/*	float: left;*/
 	padding: 10px;
 	background-color: lightblue;
 	color: black;
 }
 
 #menuSuperior li a:hover{
-	border: 3px solid blue;
+	border: 2px inset rgba(0, 0, 255, 0.8);
+	background-color: rgba(0, 0, 255, 0.411);
 	/*font-family: fantasy;*/
 }
 
 #PrDestacado{
 	display: grid;
+	margin-left: 2%;
 	margin-top: 20%;
 	margin-bottom: 10%;
-	margin-right: 10%;
+	margin-right: 8%;
 	width: 40%;
 	border: 2px solid black;
 	float: left;
@@ -109,7 +115,6 @@ body{
 
 #TDestacado{
 	margin-top: 5%;
-	margin-bottom: 10%;	
 }
 
 #SDestacado > div:first-child, #TDestacado > div:first-child{
