@@ -34,7 +34,7 @@ body{
 	margin-left: 1.8em;
 }
 
-#RecPass textarea{
+#RecPass input{
 	margin-top: 5%;
 	margin-left: 3em;
 	width: 80%;
