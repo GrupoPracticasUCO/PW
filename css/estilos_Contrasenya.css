@@ -7,17 +7,24 @@ body{
 
 #cuerpo{
 	background-color: white;
-	padding-top: 14%;
-	padding-bottom: 20%;
+	padding-top: 9%;
+	padding-bottom: 13%;
+}
+
+#cuerpo img{
+	width: auto;
+	height: 400px;
+	margin-left: 5%;
 }
 
 #RecPass{
 	border: 1px solid black;
 	height: 220px;
 	width: 30%;
-	margin-left: 65%;
+	margin-left: 5%;
 	margin-right: 5%;
 	border-radius: 2%;
+	float: right;
 }
 
 #RecPass h1{
